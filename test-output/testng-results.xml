@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify we are on home page<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify Entertainment link is present<br>]]>
+    </line>
+    <line>
+      <![CDATA[verify News link is present<br>]]>
+    </line>
+    <line>
+      <![CDATA[verify sports link is present<br>]]>
+    </line>
+    <line>
+      <![CDATA[searching for aol autos<br>]]>
+    </line>
+    <line>
+      <![CDATA[click the search button<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify we are search results page<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify web link is present<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify mail link is present<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click AolAutos link<br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify logo is present<br>]]>
+    </line>
+    <line>
+      <![CDATA[click the aol autos logo<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53961" started-at="2015-09-27T18:56:44Z" finished-at="2015-09-27T18:57:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53961" started-at="2015-09-27T18:56:44Z" finished-at="2015-09-27T18:57:38Z">
+      <class name="com.AOL.testcases.AolTest">
+        <test-method status="PASS" signature="basicSetup()[pri:0, instance:com.AOL.testcases.AolTest@5ba23b66]" name="basicSetup" is-config="true" duration-ms="47227" started-at="2015-09-27T19:56:44Z" finished-at="2015-09-27T19:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetup -->
+        <test-method status="PASS" signature="verifyinglinks()[pri:0, instance:com.AOL.testcases.AolTest@5ba23b66]" name="verifyinglinks" duration-ms="764" started-at="2015-09-27T19:57:31Z" description="verifying the news,entertainment,sports links present on home page" finished-at="2015-09-27T19:57:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify we are on home page<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify Entertainment link is present<br>]]>
+            </line>
+            <line>
+              <![CDATA[verify News link is present<br>]]>
+            </line>
+            <line>
+              <![CDATA[verify sports link is present<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyinglinks -->
+        <test-method status="PASS" signature="searchAolAutos()[pri:0, instance:com.AOL.testcases.AolTest@5ba23b66]" name="searchAolAutos" duration-ms="5870" started-at="2015-09-27T19:57:32Z" description="Search for Aol Autos" finished-at="2015-09-27T19:57:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[searching for aol autos<br>]]>
+            </line>
+            <line>
+              <![CDATA[click the search button<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify we are search results page<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify web link is present<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify mail link is present<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click AolAutos link<br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify logo is present<br>]]>
+            </line>
+            <line>
+              <![CDATA[click the aol autos logo<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchAolAutos -->
+      </class> <!-- com.AOL.testcases.AolTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
